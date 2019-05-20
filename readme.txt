@@ -11,15 +11,12 @@ Daily logo is a simple and flexible plugin which allow users to display a differ
 
 == Description ==
 
-Daily logo is a simple and flexible plugin which allow users to display a different header/logo in their site every day. If you need to have a different
-logo every day or during a particular event with this plugin you can completely customize your site header/logo management.
+Daily logo is a simple and flexible plugin which allow users to display a different header/logo in their site every day. If you need to have a different logo every day or during a particular event with this plugin you can completely customize your site header/logo management.
 
-When you install and activate the plugin, an admin section is added. The section is composed by 2 pages, in the first one are automatically listed all
-your configured daily logos, in the second one, you can see a small legend and you can setup default look & feel templates.
+When you install and activate the plugin, an admin section is added. The section is composed by 2 pages, in the first one are automatically listed all your configured daily logos, in the second one, you can see a small legend and you can setup default look & feel templates.
 You can provide a starting time and an ending time for every logo. By default the start time is 00:00 and the end time is 23:59.
 
-You can provide 2 different templates for the header/logo HTML snippet. Imagine having different layout for desktop or mobile. The algorithm for choosing
-the templates is demanded to you.
+You can provide 2 different templates for the header/logo HTML snippet. Imagine having different layout for desktop or mobile. The algorithm for choosing the templates is demanded to you.
 
 There is 2 different actions that you can use:
 
