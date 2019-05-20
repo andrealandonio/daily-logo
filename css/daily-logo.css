@@ -1,0 +1,36 @@
+/* ADMIN SETTINGS PAGE */
+#daily_logo_table p {margin: 0 0 20px 0;}
+#daily_logo_table table tr:hover{background: #EDEDED;}
+#daily_logo_table .options-column {width: 150px;}
+#daily_logo_table .date-column {width: 250px;}
+#daily_logo_table .bool-column {width: 50px;}
+#daily_logo_table .label-column label {display: block; height:30px;}
+#daily_logo_table input.date {width: 100px;}
+#daily_logo_table select.time {width: 50px; height: 27px; vertical-align: top;}
+#daily_logo_settings .legend_description {margin-top: 2px !important; margin-bottom: 10px !important;}
+#daily_logo_settings .legend_description em {font-weight: bold; font-style: italic; text-decoration: underline;}
+#daily_logo_settings .legend_conditional_tags_description {margin-top: 10px !important; margin-left: 15px !important;}
+#daily_logo_settings .legend_code {background-color: #E0E0E0; display: inline-block; padding: 5px; margin: 0;}
+#daily_logo_settings .legend_code code {padding: 0; margin: 0; background: inherit; font-size: 14px;}
+.daily-image {max-height: 100px;}
+
+/* BUTTONS ANS INPUTS */
+#daily_logo_table label.error {
+    display: block;
+    padding: 5px 0;
+    color: #FF0000;
+    font-style: italic;
+}
+
+#daily_logo_settings textarea {
+    width: 100%;
+    height: 100px;
+}
+
+#logo_rows_more .more-column {
+    text-align: center !important;
+    font-style: italic;
+    font-size: 12px;
+    cursor: pointer;
+    color: #777777;
+}

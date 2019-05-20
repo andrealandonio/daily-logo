@@ -1,0 +1,370 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Daily logo\n"
+"POT-Creation-Date: 2017-01-02 14:43+0100\n"
+"PO-Revision-Date: 2017-01-02 14:46+0100\n"
+"Last-Translator: Andrea Landonio <landonio.andrea@gmail.com>\n"
+"Language-Team: Andrea Landonio <landonio.andrea@gmail.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+
+#: daily-logo-database.php:95 daily-logo-database.php:117
+msgid "yes"
+msgstr "si"
+
+#: daily-logo-database.php:95 daily-logo-database.php:97
+#: daily-logo-database.php:100 daily-logo-database.php:117
+#: daily-logo-database.php:119 daily-logo-database.php:122
+msgid "-"
+msgstr "-"
+
+#: daily-logo-database.php:104 daily-logo-database.php:126
+msgid "Modify"
+msgstr "Modifica"
+
+#: daily-logo-database.php:105 daily-logo-database.php:127
+msgid "Clone"
+msgstr "Clona"
+
+#: daily-logo-database.php:106 daily-logo-database.php:128
+msgid "Delete"
+msgstr "Elimina"
+
+#: daily-logo-settings.php:44
+msgid "Daily logo management"
+msgstr "Impostazioni daily logo"
+
+#: daily-logo-settings.php:48 daily-logo-settings.php:198
+msgid ""
+"In this page you can manage all the logos. First of all you can create a new "
+"logo completing the following form. After you have filled all your logo's "
+"data, by clicking the \"save\" button your logo's information will be stored "
+"on database. You can see it in the list table in the bottom of this page. "
+"Use the list table options to edit or delete a logo.<br /><span class="
+"\"description\">Note: There are only two required fields, the logo name and "
+"the logo date.</span>"
+msgstr ""
+"In questa pagina puoi gestire tutti i loghi. Innanzitutto puoi creare un "
+"nuovo logo completando la form sottostante. Dopo aver compilato tutti i dati "
+"richiesti, cliccando il tasto \"salva\" le informazioni del logo verranno "
+"salvate su database. Puoi verificarle nella lista dei loghi visualizzata in "
+"fondo alla pagina. Usa le opzioni nella lista per editare o cancellare un "
+"logo.<br /><span class=\"description\">Nota: Ci sono solo due campi "
+"obbligatori, il nome del logo e la data di visualizzazione del logo.</span>"
+
+#: daily-logo-settings.php:60 daily-logo-settings.php:313
+msgid "Name"
+msgstr "Nome"
+
+#: daily-logo-settings.php:63
+msgid "Provide a name for the logo"
+msgstr "Inserisci un nome per il logo"
+
+#: daily-logo-settings.php:63 daily-logo-settings.php:85
+#: daily-logo-settings.php:210 daily-logo-settings.php:217
+#: daily-logo-settings.php:224 daily-logo-settings.php:231
+msgid "(* required)"
+msgstr "(* obbligatorio)"
+
+#: daily-logo-settings.php:67
+msgid "Date start"
+msgstr "Data inizio"
+
+#: daily-logo-settings.php:85
+msgid "Provide the start date of the logo"
+msgstr "Inserisci una data di inizio visualizzazione per il logo"
+
+#: daily-logo-settings.php:89
+msgid "Date end"
+msgstr "Data fine"
+
+#: daily-logo-settings.php:107
+msgid ""
+"Provide the end date of the logo, if empty, the start date (with end time at "
+"23:59) will be used"
+msgstr ""
+"Inserisci una data di fine visualizzazione per il logo, se non inserita, "
+"verrà usata la data di inizio (con orario impostato alle 23:59)"
+
+#: daily-logo-settings.php:111 daily-logo-settings.php:315
+msgid "Link"
+msgstr "Link"
+
+#: daily-logo-settings.php:114
+msgid "Open in a new window?"
+msgstr "Apri in una nuova finestra?"
+
+#: daily-logo-settings.php:117
+msgid "Provide the link used in the logo hyperlink"
+msgstr "Inserisci un link da usare nell'hyperlink del logo"
+
+#: daily-logo-settings.php:118
+msgid "use current site URL"
+msgstr "usa URL sito corrente"
+
+#: daily-logo-settings.php:123 daily-logo-settings.php:316
+msgid "Image"
+msgstr "Immagine"
+
+#: daily-logo-settings.php:126 daily-logo-settings.php:135
+msgid "Upload"
+msgstr "Upload"
+
+#: daily-logo-settings.php:127 daily-logo-settings.php:136
+msgid "Reset"
+msgstr "Reset"
+
+#: daily-logo-settings.php:128
+msgid "Enter an URL or upload an image for the logo"
+msgstr "Inserisci una URL o carica una immagine per il logo"
+
+#: daily-logo-settings.php:132 daily-logo-settings.php:317
+msgid "Alternative image"
+msgstr "Immagine alternativa"
+
+#: daily-logo-settings.php:137
+msgid ""
+"Enter an URL or upload an alternative image for the logo (used with "
+"alternative template layout"
+msgstr "Inserisci una URL o carica una immagine per il logo"
+
+#: daily-logo-settings.php:141 daily-logo-settings.php:318
+msgid "CSS Class"
+msgstr "Classe CSS"
+
+#: daily-logo-settings.php:144
+msgid "Provide a custom CSS class used in the logo HTML markup"
+msgstr ""
+"Inserisci una class CSS da applicare nel markup dell'hyperlink del il logo"
+
+#: daily-logo-settings.php:151 daily-logo-settings.php:295
+msgid "Save"
+msgstr "Salva"
+
+#: daily-logo-settings.php:154
+msgid "Logo list"
+msgstr "Lista loghi"
+
+#: daily-logo-settings.php:156
+msgid ""
+"In the following table you can see all the existing logo ordered by date. "
+"Beside every row you have two option to modify a logo information or delete "
+"it from database."
+msgstr ""
+"Nella tabella seguente puoi vedere tutti i loghi esistenti ordinati per "
+"data. Accanto ad ogni riga hai due opzioni per modificare le informazioni di "
+"un logo o cancellarlo dal database."
+
+#: daily-logo-settings.php:157
+msgid ""
+"After every action (modify, clone or delete) the table will be reloaded."
+msgstr ""
+"Dopo ogni azione (modifica, clona, elimina) la tabella verrà ricaricata."
+
+#: daily-logo-settings.php:186
+msgid "Daily logo settings"
+msgstr "Impostazioni daily logo"
+
+#: daily-logo-settings.php:207
+msgid "Template without daily logo"
+msgstr "Template senza daily logo"
+
+#: daily-logo-settings.php:210
+msgid ""
+"Provide the logo HTML template used if no daily logo exists. Do not use PHP "
+"code or WordPress functions, please provide only static text."
+msgstr ""
+"Inserisci il template HTML da utilizzare se non è presente un logo. Non "
+"usare codice PHP o funzioni WordPress, inserisci solo testo statico."
+
+#: daily-logo-settings.php:214
+msgid "Alternative template without daily logo"
+msgstr "Template alternativo senza daily logo"
+
+#: daily-logo-settings.php:217
+msgid ""
+"Provide an alternative logo HTML template used if no daily logo exists. The "
+"alternative logo should be used to manage different templates and layouts, "
+"for example: desktop layout or mobile layout. If you don't use different "
+"layouts please fill the same value of the above field. Do not use PHP code "
+"or WordPress functions, please provide only static text."
+msgstr ""
+"Inserisci il template HTML alternativo da utilizzare se non è presente un "
+"logo. Il logo alternativo dovrebbe essere usato per gestire layout "
+"differenti, per esempio: layout desktop o layout mobile. Se non usi layout "
+"differenti inserisci lo stesso valore del campo precedente. Non usare codice "
+"PHP o funzioni WordPress, inserisci solo testo statico."
+
+#: daily-logo-settings.php:221
+msgid "Template with daily logo"
+msgstr "Template con daily logo"
+
+#: daily-logo-settings.php:224
+msgid ""
+"Provide the logo HTML template used if a daily logo exists. Do not use PHP "
+"code or WordPress functions, please provide only static text."
+msgstr ""
+"Inserisci il template HTML da utilizzare se è presente un logo. Non usare "
+"codice PHP o funzioni WordPress, inserisci solo testo statico."
+
+#: daily-logo-settings.php:228
+msgid "Alternative template with daily logo"
+msgstr "Template alternativo con daily logo"
+
+#: daily-logo-settings.php:231
+msgid ""
+"Provide an alternative logo HTML template used if a daily logo exists. The "
+"alternative logo should be used to manage different templates and layouts, "
+"for example: desktop layout or mobile layout. If you don't use different "
+"layouts please fill the same value of the above field. Do not use PHP code "
+"or WordPress functions, please provide only static text."
+msgstr ""
+"Inserisci il template HTML alternativo da utilizzare se  è presente un logo. "
+"Il logo alternativo dovrebbe essere usato per gestire layout differenti, per "
+"esempio: layout desktop o layout mobile. Se non usi layout differenti "
+"inserisci lo stesso valore del campo precedente. Non usare codice PHP o "
+"funzioni WordPress, inserisci solo testo statico."
+
+#: daily-logo-settings.php:235
+msgid "Legend"
+msgstr "Legenda"
+
+#: daily-logo-settings.php:237
+msgid "##LINK##"
+msgstr "##LINK##"
+
+#: daily-logo-settings.php:238
+msgid "A placeholder to set logo link"
+msgstr "Placeholder per impostare il link del logo"
+
+#: daily-logo-settings.php:239
+msgid "##NAME##"
+msgstr "##NAME##"
+
+#: daily-logo-settings.php:240
+msgid "A placeholder to set logo name"
+msgstr "Placeholder per impostare il nome del logo"
+
+#: daily-logo-settings.php:241
+msgid "##TARGET##"
+msgstr "##TARGET##"
+
+#: daily-logo-settings.php:242
+msgid "A placeholder to set logo link target"
+msgstr "Placeholder per impostare il target del link del logo"
+
+#: daily-logo-settings.php:243
+msgid "##CLASS##"
+msgstr "##CLASS##"
+
+#: daily-logo-settings.php:244
+msgid "A placeholder to set logo custom CSS class"
+msgstr "Placeholder per impostare una classe personalizzata al logo"
+
+#: daily-logo-settings.php:245
+msgid "##IMAGE##"
+msgstr "##IMAGE##"
+
+#: daily-logo-settings.php:246
+msgid "A placeholder to set logo image"
+msgstr "Placeholder per impostare l'immagine del logo"
+
+#: daily-logo-settings.php:247
+msgid "##IMAGE_ALTERNATIVE##"
+msgstr "##IMAGE_ALTERNATIVE##"
+
+#: daily-logo-settings.php:248
+msgid "A placeholder to set logo alternative image"
+msgstr "Placeholder per impostare l'immagine alternativa del logo"
+
+#: daily-logo-settings.php:252
+msgid "Conditional tags"
+msgstr "Tags condizionali"
+
+#: daily-logo-settings.php:254
+msgid "A placeholder to insert a conditional tag"
+msgstr "Un placeholder per impostare tags condizionali"
+
+#: daily-logo-settings.php:255
+msgid "You can insert <em>only one</em> of the following conditional tag:"
+msgstr "Puoi inserire <em>solo uno</em> dei seguenti tags condizionali:"
+
+#: daily-logo-settings.php:257
+msgid "##HAS_IMAGE##"
+msgstr "##HAS_IMAGE##"
+
+#: daily-logo-settings.php:258
+msgid "A placeholder to check if logo has image"
+msgstr "Placeholder per controllare se il logo ha una immagine impostata"
+
+#: daily-logo-settings.php:261
+msgid "##HAS_IMAGE_ALTERNATIVE##"
+msgstr "##HAS_IMAGE_ALTERNATIVE##"
+
+#: daily-logo-settings.php:262
+msgid "A placeholder to check if logo has alternative image"
+msgstr ""
+"Placeholder per controllare se il logo ha una immagine alternativa impostata"
+
+#: daily-logo-settings.php:268
+msgid "Default template"
+msgstr "Default template"
+
+#: daily-logo-settings.php:269
+msgid ""
+"The standard template used by the plugin for the daily logo HTML snippet"
+msgstr "Il template standard usato dal plugin come porzione di HTML di default"
+
+#: daily-logo-settings.php:280
+msgid "Examples"
+msgstr "Esempi"
+
+#: daily-logo-settings.php:281
+msgid "A \"##HAS_IMAGE_ALTERNATIVE##\" conditional tag example:"
+msgstr "Un esempio di tag condinaziole \"##HAS_IMAGE_ALTERNATIVE##\":"
+
+#: daily-logo-settings.php:296
+msgid "Restore"
+msgstr "Ripristina"
+
+#: daily-logo-settings.php:314
+msgid "Date (start => end)"
+msgstr "Data (inizio => fine)"
+
+#: daily-logo-settings.php:319
+msgid "Options"
+msgstr "Opzioni"
+
+#: daily-logo-settings.php:333
+msgid "Load more"
+msgstr "Carica altri"
+
+#: daily-logo-settings.php:333
+msgid "Loading..."
+msgstr "Caricamento..."
+
+#: daily-logo.php:183 daily-logo.php:189
+msgid "Manage"
+msgstr "Gestione"
+
+#: daily-logo.php:184 daily-logo.php:190
+msgid "Settings"
+msgstr "Impostazioni"
+
+#~ msgid "Date"
+#~ msgstr "Data"
+
+#~ msgid "Provide the date of the logo"
+#~ msgstr "Inserisci una data per il logo"
+
+#, fuzzy
+#~ msgid "Daily logo"
+#~ msgstr "Template alternativo senza daily logo"
