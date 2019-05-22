@@ -1,9 +1,9 @@
 # Daily logo #
 **Contributors:** [lando1982](https://profiles.wordpress.org/lando1982)  
 **Tags:** logo, daily, doodle, switch, organize, manage  
-**Requires at least:** 3.5  
+**Requires at least:** 4.0  
 **Tested up to:** 5.2  
-**Stable tag:** 2.1.0  
+**Stable tag:** 2.1.1  
 **License:** GPLv3  
 **License URI:** http://www.gnu.org/licenses/gpl.html  
 
@@ -29,7 +29,6 @@ Here you can find and example of template detection in a PHP template file (e.g.
 	$is_mobile = false;
 	if ($is_mobile) do_action( 'daily_logo_show_today_alternative' );
 	else do_action( 'daily_logo_show_today' );
-
 
 
 	$is_mobile = false;
@@ -81,6 +80,9 @@ With logos on the same day, the plugin uses the older and valid one and then fir
 
 
 ## Changelog ##
+
+### 2.1.1 - 2019-05-22 ###
+* Updated WordPress requirements
 
 ### 2.1.0 - 2017-01-02 ###
 * Added "HAS_IMAGE_ALTERNATIVE" and "IMAGE_ALTERNATIVE" tags management
