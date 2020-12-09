@@ -6,11 +6,11 @@ Author: Andrea Landonio
 Author URI: http://www.andrealandonio.it
 Text Domain: daily_logo
 Domain Path: /languages/
-Version: 2.1.2
+Version: 2.1.3
 License: GPL v3
 
 Daily logo
-Copyright (C) 2013-2019, Andrea Landonio - landonio.andrea@gmail.com
+Copyright (C) 2013-2020, Andrea Landonio - landonio.andrea@gmail.com
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
