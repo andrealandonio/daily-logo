@@ -2,8 +2,8 @@
 Contributors: lando1982
 Tags: logo, daily, doodle, switch, organize, manage
 Requires at least: 4.0
-Tested up to: 5.6
-Stable tag: 2.1.3
+Tested up to: 5.7
+Stable tag: 2.1.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -76,6 +76,9 @@ With logos on the same day, the plugin uses the older and valid one and then fir
 2. Settings admin page
 
 == Changelog ==
+
+= 2.1.4 - 2021-03-14 =
+* Tested up with WordPress 5.7 release
 
 = 2.1.3 - 2020-12-09 =
 * Tested up to latest WordPress releases
