@@ -3,7 +3,7 @@
  DEFINITION AND CONSTANTS
  ***************************************************/
 
-define( 'DLP_VERSION', '2.1.4' );
+define( 'DLP_VERSION', '2.1.5' );
 define( 'DLP_DB_VERSION', '2.0' );
 define( 'DLP_PREFIX', 'daily_logo' );
 define( 'DLP_DB_TABLE', 'daily_logo' );

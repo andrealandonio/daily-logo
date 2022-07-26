@@ -6,7 +6,7 @@ Author: Andrea Landonio
 Author URI: http://www.andrealandonio.it
 Text Domain: daily_logo
 Domain Path: /languages/
-Version: 2.1.4
+Version: 2.1.5
 License: GPL v3
 
 Daily logo

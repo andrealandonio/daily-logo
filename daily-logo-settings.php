@@ -288,6 +288,19 @@ function daily_logo_menu_page_settings() {
                             </div>
 						</td>
 					</tr>
+
+					<tr>
+						<th scope="row"><?php _e( 'Extra info', DLP_PREFIX ) ?></th>
+						<td>
+							<b><i><?php _e( 'Shortcodes', DLP_PREFIX ) ?></i></b>
+							<p class="legend_description"><?php _e( 'The plugin provides a shortcode for displaying a table of historical data showing used names, dates and images.', DLP_PREFIX ) ?></p>
+							<div class="legend_code_container">
+								<div class="legend_code">
+									<code class="html plain">[daily_logo_history_table]</code>
+								</div>
+							</div>
+						</td>
+					</tr>
 				</tbody>
 			</table>
 

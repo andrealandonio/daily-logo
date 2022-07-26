@@ -245,3 +245,78 @@ function daily_logo_show_date_alternative( $year, $month, $day, $hour, $minute )
     return null;
 }
 add_action( 'daily_logo_show_date_alternative', 'daily_logo_show_date_alternative', 10, 3 );
+
+
+
+
+
+
+
+
+/**
+ * Render table list all rows to historic
+ */
+function daily_logo_fields_table() {
+	?>
+	<table class="wp-list-table" cellspacing="0">
+		<thead>
+			<tr>
+				<th scope="col" class="label-column"><?php _e( 'Name', DLP_PREFIX ) ?></th>
+				<th scope="col" class="date-column"><?php _e( 'Date start', DLP_PREFIX ) ?></th>
+				<th scope="col" class="date-column"><?php _e( 'Date end', DLP_PREFIX ) ?></th>
+				<th scope="col" class="label-column"><?php _e( 'Image', DLP_PREFIX ) ?></th>
+			</tr>
+		</thead>
+		<tbody id="logo_rows">
+			<?php
+			// Get rows from database
+			global $wpdb;
+			$table_name = $wpdb->prefix . DLP_DB_TABLE;
+
+			// Retrieve rows
+			$rows = $wpdb->get_results( '
+				SELECT *
+				FROM ' . $table_name . '
+				ORDER BY
+					logo_year_start DESC,
+					logo_month_start DESC,
+					logo_day_start DESC,
+					logo_hour_start DESC,
+					logo_minute_start DESC,
+					logo_year_end DESC,
+					logo_month_end DESC,
+					logo_day_end DESC,
+					logo_hour_end DESC,
+					logo_minute_end DESC'
+				);
+				
+			// Show rows
+			$i = 0;
+			foreach ( $rows as $row ) {
+				$year_start = $row->logo_year_start;
+				$month_start = daily_logo_format_digit_date( $row->logo_month_start );
+				$day_start = daily_logo_format_digit_date( $row->logo_day_start );
+				$hour_start = daily_logo_format_digit_date( $row->logo_hour_start );
+				$minute_start = daily_logo_format_digit_date( $row->logo_minute_start );
+				$year_end = ( $row->logo_year_end != 0 ) ? $row->logo_year_end : $year_start;
+				$month_end = ( $row->logo_year_end != 0 ) ? daily_logo_format_digit_date( $row->logo_month_end ) : $month_start;
+				$day_end = ( $row->logo_year_end != 0 ) ? daily_logo_format_digit_date( $row->logo_day_end ) : $day_start;
+				$hour_end = ( $row->logo_year_end != 0 ) ? daily_logo_format_digit_date( $row->logo_hour_end ) : DLP_DEFAULT_END_DATE_HOUR;
+				$minute_end = ( $row->logo_year_end != 0 ) ? daily_logo_format_digit_date( $row->logo_minute_end ) : DLP_DEFAULT_END_DATE_MINUTE;
+				
+				echo ('<tr id="logo-' . $row->id . '" ' . ( ( $i % 2 == 0 ) ? 'style="background-color: #39e4ef;"' : '' ) . ' valign="middle">
+				<td class="label-column">' . $row->logo_name . '</td>
+				<td class="date-column">' . $day_start . '/' . $month_start . '/' . $year_start. ' ' . $hour_start. ':' . $minute_start . '</td>
+				<td class="date-column">' . $day_end . '/' . $month_end . '/' . $year_end. ' ' . $hour_end. ':' . $minute_end . '</td>
+				<td class="label-column">
+				' . ( ! empty( $row->logo_image ) ? '<img src="' . $row->logo_image . '" alt="' . $row->logo_name . '" class="daily-image" />' : __( '-', DLP_PREFIX ) ) . '
+				</td>
+				</tr>');
+		   		$i++;
+			}
+		?>
+  		</tbody>
+	</table>
+	<?php
+}
+add_shortcode('daily_logo_history_table', 'daily_logo_fields_table');

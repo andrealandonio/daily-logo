@@ -1,20 +1,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Daily logo\n"
-"POT-Creation-Date: 2017-01-02 14:43+0100\n"
-"PO-Revision-Date: 2017-01-02 14:46+0100\n"
+"POT-Creation-Date: 2022-07-25 18:06+0200\n"
+"PO-Revision-Date: 2022-07-25 18:07+0200\n"
 "Last-Translator: Andrea Landonio <landonio.andrea@gmail.com>\n"
 "Language-Team: Andrea Landonio <landonio.andrea@gmail.com>\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7.1\n"
-"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
 "X-Poedit-Basepath: ..\n"
-"X-Poedit-SearchPath-0: languages\n"
-"X-Poedit-SearchPath-1: .\n"
-"X-Poedit-SearchPathExcluded-0: js\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #: daily-logo-database.php:95 daily-logo-database.php:117
 msgid "yes"
@@ -23,6 +23,7 @@ msgstr "si"
 #: daily-logo-database.php:95 daily-logo-database.php:97
 #: daily-logo-database.php:100 daily-logo-database.php:117
 #: daily-logo-database.php:119 daily-logo-database.php:122
+#: daily-logo-utils.php:312
 msgid "-"
 msgstr "-"
 
@@ -60,7 +61,8 @@ msgstr ""
 "logo.<br /><span class=\"description\">Nota: Ci sono solo due campi "
 "obbligatori, il nome del logo e la data di visualizzazione del logo.</span>"
 
-#: daily-logo-settings.php:60 daily-logo-settings.php:313
+#: daily-logo-settings.php:60 daily-logo-settings.php:326
+#: daily-logo-utils.php:264
 msgid "Name"
 msgstr "Nome"
 
@@ -74,7 +76,7 @@ msgstr "Inserisci un nome per il logo"
 msgid "(* required)"
 msgstr "(* obbligatorio)"
 
-#: daily-logo-settings.php:67
+#: daily-logo-settings.php:67 daily-logo-utils.php:265
 msgid "Date start"
 msgstr "Data inizio"
 
@@ -82,7 +84,7 @@ msgstr "Data inizio"
 msgid "Provide the start date of the logo"
 msgstr "Inserisci una data di inizio visualizzazione per il logo"
 
-#: daily-logo-settings.php:89
+#: daily-logo-settings.php:89 daily-logo-utils.php:266
 msgid "Date end"
 msgstr "Data fine"
 
@@ -94,7 +96,7 @@ msgstr ""
 "Inserisci una data di fine visualizzazione per il logo, se non inserita, "
 "verrà usata la data di inizio (con orario impostato alle 23:59)"
 
-#: daily-logo-settings.php:111 daily-logo-settings.php:315
+#: daily-logo-settings.php:111 daily-logo-settings.php:328
 msgid "Link"
 msgstr "Link"
 
@@ -110,7 +112,8 @@ msgstr "Inserisci un link da usare nell'hyperlink del logo"
 msgid "use current site URL"
 msgstr "usa URL sito corrente"
 
-#: daily-logo-settings.php:123 daily-logo-settings.php:316
+#: daily-logo-settings.php:123 daily-logo-settings.php:329
+#: daily-logo-utils.php:267
 msgid "Image"
 msgstr "Immagine"
 
@@ -126,7 +129,7 @@ msgstr "Reset"
 msgid "Enter an URL or upload an image for the logo"
 msgstr "Inserisci una URL o carica una immagine per il logo"
 
-#: daily-logo-settings.php:132 daily-logo-settings.php:317
+#: daily-logo-settings.php:132 daily-logo-settings.php:330
 msgid "Alternative image"
 msgstr "Immagine alternativa"
 
@@ -136,7 +139,7 @@ msgid ""
 "alternative template layout"
 msgstr "Inserisci una URL o carica una immagine per il logo"
 
-#: daily-logo-settings.php:141 daily-logo-settings.php:318
+#: daily-logo-settings.php:141 daily-logo-settings.php:331
 msgid "CSS Class"
 msgstr "Classe CSS"
 
@@ -145,7 +148,7 @@ msgid "Provide a custom CSS class used in the logo HTML markup"
 msgstr ""
 "Inserisci una class CSS da applicare nel markup dell'hyperlink del il logo"
 
-#: daily-logo-settings.php:151 daily-logo-settings.php:295
+#: daily-logo-settings.php:151 daily-logo-settings.php:308
 msgid "Save"
 msgstr "Salva"
 
@@ -331,23 +334,39 @@ msgstr "Esempi"
 msgid "A \"##HAS_IMAGE_ALTERNATIVE##\" conditional tag example:"
 msgstr "Un esempio di tag condinaziole \"##HAS_IMAGE_ALTERNATIVE##\":"
 
+#: daily-logo-settings.php:293
+msgid "Extra info"
+msgstr "Informazioni aggiuntive"
+
+#: daily-logo-settings.php:295
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
 #: daily-logo-settings.php:296
+msgid ""
+"The plugin provides a shortcode for displaying a table of historical data "
+"showing used names, dates and images."
+msgstr ""
+"Il plugin fornisce uno shortcode per visualizzare una tabella contenente la "
+"cronologia dei dati inseriti mostrando nomi, date ed immagini utilizzati."
+
+#: daily-logo-settings.php:309
 msgid "Restore"
 msgstr "Ripristina"
 
-#: daily-logo-settings.php:314
+#: daily-logo-settings.php:327
 msgid "Date (start => end)"
 msgstr "Data (inizio => fine)"
 
-#: daily-logo-settings.php:319
+#: daily-logo-settings.php:332
 msgid "Options"
 msgstr "Opzioni"
 
-#: daily-logo-settings.php:333
+#: daily-logo-settings.php:346
 msgid "Load more"
 msgstr "Carica altri"
 
-#: daily-logo-settings.php:333
+#: daily-logo-settings.php:346
 msgid "Loading..."
 msgstr "Caricamento..."
 

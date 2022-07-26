@@ -1,9 +1,9 @@
 # Daily logo #
-**Contributors:** [lando1982](https://profiles.wordpress.org/lando1982)  
+**Contributors:** [lando1982](https://profiles.wordpress.org/lando1982), [ksombrah](https://profiles.wordpress.org/ksombrah)  
 **Tags:** logo, daily, doodle, switch, organize, manage  
 **Requires at least:** 4.0  
-**Tested up to:** 5.8  
-**Stable tag:** 2.1.4  
+**Tested up to:** 5.9  
+**Stable tag:** 2.1.5  
 **License:** GPLv3  
 **License URI:** http://www.gnu.org/licenses/gpl.html  
 
@@ -37,6 +37,8 @@ Here you can find and example of template detection in a PHP template file (e.g.
 
 
 The action with the "alternative" suffix is used for the second template layout.
+
+You can use the shortcode `[daily_logo_history_table]` in your code for displaying a table with all the data history.
 
 ### Usage ###
 
@@ -80,6 +82,9 @@ With logos on the same day, the plugin uses the older and valid one and then fir
 
 
 ## Changelog ##
+
+### 2.1.5 - 2022-07-26 ###
+* Added table history shortcode
 
 ### 2.1.4 - 2021-03-14 ###
 * Tested up with WordPress 5.7 release
